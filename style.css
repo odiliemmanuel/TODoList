@@ -9,7 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     width: 100%;
-     background-image: linear-gradient(to right, rgb(105, 156, 185), rgb(220, 231, 239), rgb(67, 156, 190));
+     background-image: linear-gradient(to right, rgb(34, 36, 37), rgb(209, 225, 237), rgb(44, 48, 49));
    
 }
 
@@ -81,4 +81,49 @@ body{
     justify-content: center;
     cursor: pointer;
     height: 30px;
+}
+
+
+
+.addBtn:hover, .searchBtn:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+
+.addBtn:active, .searchBtn:active{
+    background: #4ae342;
+    color: #fff;
+    transform: scale(0.98);
+}
+
+
+.deleteBtn{
+     width: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    cursor: pointer;
+    height: 30px;
+    color:white;
+}
+
+.deleteBtn:hover{
+    background: #e31b1b;
+    color: #fff;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 300px
+  
+}
+
+#output{
+  
+    width: 350px;
+
+
 }

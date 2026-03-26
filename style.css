@@ -1,1 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+     background-image: linear-gradient(to right, rgb(105, 156, 185), rgb(220, 231, 239), rgb(67, 156, 190));
+   
+}
+
+.wrapper{
+    width: 550px;
+    height: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+   background-image: linear-gradient(to right, rgb(105, 156, 185), rgb(220, 231, 239), rgb(67, 156, 190));
+   
+}
+
+#search-tasks{
+    display: flex;
+    gap: 20px;
+}
+
+
+#add-task{
+    display: flex;
+    gap: 20px;
+}
+
+
+.searchBox{
+    width: 400px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(53, 75, 87), rgb(220, 231, 239), rgb(124, 194, 221));
+}
+
+
+
+.addBox{
+    width: 400px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+
+   background-image: linear-gradient(to right, rgb(53, 75, 87), rgb(220, 231, 239), rgb(124, 194, 221));
+}
+
+
+
+.addBtn{
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 30px;
+}
+
+
+.searchBtn{
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 30px;
+}

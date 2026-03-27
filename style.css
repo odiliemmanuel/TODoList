@@ -9,8 +9,7 @@ body{
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     width: 100%;
-     background-image: linear-gradient(to right, rgb(34, 36, 37), rgb(209, 225, 237), rgb(44, 48, 49));
-   
+    background-color: #b8e0f5;
 }
 
 .wrapper{
@@ -22,9 +21,8 @@ body{
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
     position: absolute;
     top: 20%;
-    left: 20%;
-   background-image: linear-gradient(to right, rgb(105, 156, 185), rgb(220, 231, 239), rgb(67, 156, 190));
-   
+    left: 35%;
+    background-color: #35a7d4;
 }
 
 #search-tasks{
@@ -103,7 +101,7 @@ body{
      width: 60px;
     align-items: center;
     justify-content: space-between;
-    background-color: blue;
+    background-color: rgb(116, 116, 197);
     cursor: pointer;
     height: 30px;
     color:white;
